@@ -1,0 +1,58 @@
+{
+    "services": [
+        {
+            "name": "Smartphone Repairs",
+            "description": "Screen replacements, battery swaps, water damage recovery.",
+            "priceRange": "R300–R1800",
+            "brands": [
+                "Samsung",
+                "Huawei",
+                "Apple",
+                "Xiaomi"
+            ]
+        },
+        {
+            "name": "Laptop Diagnostics",
+            "description": "Hardware and software testing with detailed reports.",
+            "priceRange": "R250 flat fee",
+            "brands": [
+                "HP",
+                "Dell",
+                "Lenovo",
+                "Acer",
+                "Asus"
+            ]
+        },
+        {
+            "name": "WiFi Setup & Optimization",
+            "description": "Home or office router setup, signal boosting & troubleshooting.",
+            "priceRange": "R350–R800"
+        }
+    ],
+    "storeInfo": {
+        "locations": [
+            {
+                "name": "TechBuddy South Africa",
+                "address": "12 Rivonia Blvd",
+                "city": "Sandton",
+                "province": "Gauteng",
+                "postal code": "2191",
+                "phone": "011-444-2211",
+                "hours": "Mon-Fri: 8am-6pm, Sat: 9am-2pm"
+            }
+        ],
+        "policies": {
+            "Warranty": "90-day workmanship warranty on all repairs.",
+            "Turnaround": "Most services completed within 24–48 hours.",
+            "Payment": "Cash, EFT, Capitec Pay, and credit cards."
+        }
+    },
+    "promotions": [
+        {
+            "name": "Back to School Tech Check",
+            "description": "10% off all diagnostics and student laptop cleaning.",
+            "code": "SCHOOL10",
+            "expiry": "January 31, 2026"
+        }
+    ]
+}

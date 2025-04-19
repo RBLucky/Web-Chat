@@ -1,0 +1,43 @@
+{
+    "services": [
+        {
+            "name": "Custom AI Chatbots",
+            "description": "Conversational AI for customer support, websites, and WhatsApp bots.",
+            "priceRange": "From R3000 depending on features"
+        },
+        {
+            "name": "Data Analysis Tools",
+            "description": "Python or Node.js-based dashboards with ML insights.",
+            "priceRange": "R5000–R15,000"
+        },
+        {
+            "name": "Model Fine-Tuning & Hosting",
+            "description": "Custom fine-tuning of open-source LLMs and deployment on Render/Vercel.",
+            "priceRange": "Quotable per project"
+        }
+    ],
+    "storeInfo": {
+        "locations": [
+            {
+                "name": "NeuralNode Studios",
+                "address": "Remote (Based in Durban)",
+                "email": "projects@neuralnode.co.za",
+                "phone": "073-999-1100",
+                "hours": "Consults by appointment only"
+            }
+        ],
+        "policies": {
+            "Contracts": "All projects require a signed NDA and scope agreement.",
+            "Delivery": "GitHub or secure link for all deliverables.",
+            "Payment": "EFT, PayPal, or crypto on request."
+        }
+    },
+    "promotions": [
+        {
+            "name": "Startup Pack",
+            "description": "Bundle deal for chatbot, site integration, and 3-month support.",
+            "code": "LAUNCHZA",
+            "expiry": "December 31, 2025"
+        }
+    ]
+}

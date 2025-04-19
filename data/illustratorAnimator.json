@@ -1,0 +1,48 @@
+{
+    "services": [
+        {
+            "name": "Custom Character Illustration",
+            "description": "Full-colour digital illustrations in your style of choice.",
+            "packages": [
+                "Bust (R350)",
+                "Full Body (R600)",
+                "Scene (R950)"
+            ]
+        },
+        {
+            "name": "Explainer Animation",
+            "description": "60-90 second animations for products or services.",
+            "price": "Starting at R2500",
+            "delivery": "7–10 working days"
+        },
+        {
+            "name": "Children's Book Illustrations",
+            "description": "Bright, engaging pages for educational or fictional books.",
+            "price": "From R500 per page"
+        }
+    ],
+    "storeInfo": {
+        "locations": [
+            {
+                "name": "Sketch South",
+                "address": "Remote Studio (Cape Town)",
+                "email": "hello@sketchsouth.co.za",
+                "phone": "072-456-8901",
+                "hours": "Available for consults Mon-Fri: 9am–5pm"
+            }
+        ],
+        "policies": {
+            "Delivery": "All work is delivered digitally via Google Drive or WeTransfer.",
+            "Revisions": "Up to 3 free revisions per project tier.",
+            "Payment": "50% upfront, balance on approval. EFT or PayPal accepted."
+        }
+    },
+    "promotions": [
+        {
+            "name": "New Client Discount",
+            "description": "15% off your first full commission order.",
+            "code": "FIRST15",
+            "expiry": "June 30, 2025"
+        }
+    ]
+}

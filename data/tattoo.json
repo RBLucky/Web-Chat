@@ -1,0 +1,111 @@
+{
+    "artistInfo": {
+        "name": "Inkspire Studio",
+        "owner": "Thabo Mokoena",
+        "styleSpecialties": [
+            "Realism",
+            "Mandala",
+            "Geometric",
+            "Portraits",
+            "Traditional African patterns"
+        ],
+        "experience": "Over 12 years of professional tattooing experience with an award-winning portfolio.",
+        "bio": "Inkspire Studio is based in Johannesburg and led by Thabo Mokoena, a tattoo artist passionate about telling stories through ink. Whether you're a first-timer or an ink collector, you're in good hands."
+    },
+    "designs": [
+        {
+            "name": "Mandala Sleeve",
+            "description": "Intricate mandala design extending from shoulder to wrist",
+            "category": "Geometric",
+            "priceRange": "R2500 - R5500",
+            "estimatedTime": "4-6 hours"
+        },
+        {
+            "name": "Portrait of Loved One",
+            "description": "Hyper-realistic black & grey portrait, perfect for memorial tattoos",
+            "category": "Realism",
+            "priceRange": "R1800 - R4000",
+            "estimatedTime": "3-5 hours"
+        },
+        {
+            "name": "Zulu Shield and Spears",
+            "description": "A bold tribal chest piece inspired by Zulu warrior symbolism",
+            "category": "Traditional African",
+            "priceRange": "R2200 - R4800",
+            "estimatedTime": "4-5 hours"
+        },
+        {
+            "name": "Fine Line Rose",
+            "description": "Delicate fine-line rose tattoo, ideal for smaller placements",
+            "category": "Minimalist",
+            "priceRange": "R600 - R1200",
+            "estimatedTime": "1 hour"
+        },
+        {
+            "name": "Custom Design",
+            "description": "Bring your own idea and we’ll collaborate on something unique",
+            "category": "Custom",
+            "priceRange": "R800 - R8000",
+            "estimatedTime": "Varies"
+        }
+    ],
+    "appointmentAvailability": {
+        "days": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "hours": "10:00am - 6:00pm",
+        "bookingOptions": {
+            "walkIns": "Limited, first-come first-served",
+            "appointments": "Recommended for custom and large designs",
+            "bookingLink": "https://inkspire.co.za/book"
+        }
+    },
+    "studioLocation": {
+        "name": "Inkspire Studio",
+        "address": "145 Jan Smuts Avenue",
+        "suburb": "Parkwood",
+        "city": "Johannesburg",
+        "province": "Gauteng",
+        "postalCode": "2193",
+        "phone": "010-555-2025",
+        "whatsapp": "+27 71 456 1234",
+        "email": "bookings@inkspire.co.za"
+    },
+    "shopPolicies": {
+        "AgeRequirement": "Clients must be 18 or older. Valid ID required.",
+        "Cancellations": "Please notify us at least 24 hours in advance to reschedule.",
+        "Deposits": "A 50% deposit is required for bookings over R1500.",
+        "TouchUps": "Free touch-up within 3 months for qualifying tattoos.",
+        "Aftercare": "Aftercare instructions will be provided after your session. Following them is essential to avoid infections and fading."
+    },
+    "promotions": [
+        {
+            "name": "First Timer Deal",
+            "description": "Get 15% off your first tattoo at Inkspire Studio.",
+            "code": "INKFIRST15",
+            "expiry": "December 31, 2025"
+        },
+        {
+            "name": "Flash Fridays",
+            "description": "Special R500 flash tattoos every last Friday of the month.",
+            "code": "FLASHFRIDAY",
+            "expiry": "Ongoing"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Kgomotso M.",
+            "comment": "Thabo is an absolute legend. My tattoo came out even better than I imagined!",
+            "rating": 5
+        },
+        {
+            "name": "Musa R.",
+            "comment": "Super professional and friendly environment. Highly recommend Inkspire.",
+            "rating": 5
+        }
+    ]
+}

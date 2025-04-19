@@ -1,0 +1,47 @@
+{
+    "services": [
+        {
+            "name": "Portrait Sessions",
+            "description": "1-hour shoot, 10 edited photos, choice of location.",
+            "price": "R950",
+            "includes": "2 outfit changes"
+        },
+        {
+            "name": "Event Photography",
+            "description": "Weddings, birthdays, corporate events. Full coverage with fast edits.",
+            "priceRange": "R2000–R7000",
+            "bookingNotice": "Minimum 2-week advance booking"
+        },
+        {
+            "name": "Product Photography",
+            "description": "E-commerce ready shots, white background or styled flat lays.",
+            "price": "From R100 per product"
+        }
+    ],
+    "storeInfo": {
+        "locations": [
+            {
+                "name": "Lens & Light",
+                "address": "Woodstock Exchange, Albert Rd",
+                "city": "Cape Town",
+                "province": "Western Cape",
+                "postal code": "7925",
+                "phone": "081-321-4444",
+                "hours": "Mon-Sat: 9am–6pm"
+            }
+        ],
+        "policies": {
+            "Turnaround": "Final photos delivered within 7 working days.",
+            "Cancellation": "50% fee if canceled within 24 hours of shoot.",
+            "Payment": "Full payment due at shoot via EFT, SnapScan or card."
+        }
+    },
+    "promotions": [
+        {
+            "name": "Winter Portrait Special",
+            "description": "R150 off all solo portrait bookings in June/July",
+            "code": "WINTERSHOOT",
+            "expiry": "July 31, 2025"
+        }
+    ]
+}

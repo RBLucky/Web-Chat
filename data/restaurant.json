@@ -1,0 +1,54 @@
+{
+    "menu": [
+        {
+            "name": "Cape Malay Chicken Curry",
+            "description": "Traditional mild curry with tender chicken, potatoes and fragrant spices. Served with rice and sambals.",
+            "price": "R129.00",
+            "availability": "Available daily"
+        },
+        {
+            "name": "Boerewors Roll",
+            "description": "Chargrilled boerewors in a toasted bun with chakalaka relish.",
+            "price": "R75.00",
+            "availability": "Lunch Special (12pm–3pm)"
+        },
+        {
+            "name": "Vegetarian Bunny Chow",
+            "description": "Durban-style quarter loaf stuffed with spicy bean curry.",
+            "price": "R89.00",
+            "availability": "Weekdays only"
+        },
+        {
+            "name": "Milk Tart Slice",
+            "description": "Traditional creamy custard tart with cinnamon topping.",
+            "price": "R39.00",
+            "availability": "Always available"
+        }
+    ],
+    "storeInfo": {
+        "locations": [
+            {
+                "name": "Taste of Jozi",
+                "address": "44 Jan Smuts Avenue",
+                "city": "Melville",
+                "province": "Gauteng",
+                "postal code": "2092",
+                "phone": "010-345-6789",
+                "hours": "Mon-Sun: 11am-10pm"
+            }
+        ],
+        "policies": {
+            "Bookings": "Walk-ins welcome, but table reservations recommended on weekends.",
+            "Delivery": "Available via UberEats, MrD and Bolt Food",
+            "Payment": "We accept SnapScan, Zapper, debit/credit cards, and cash."
+        }
+    },
+    "promotions": [
+        {
+            "name": "2-for-1 Curry Thursdays",
+            "description": "Order one curry, get the second free.",
+            "code": "CURRYLOVE",
+            "expiry": "Ongoing every Thursday"
+        }
+    ]
+}
