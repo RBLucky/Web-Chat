@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="chat-container">
+    <div class="chat-header">
+      <h2>Smart Assistant</h2>
+      <select id="chatbot-type">
+        <option value="store">Store Assistant</option>
+        <option value="restaurant">Restaurant Guide</option>
+        <option value="tech-support">Tech Support</option>
+      </select>
+    </div>
+    
+    <ul id="chatbox">
+      <!-- Chat messages will appear here -->
+    </ul>
+    
+    <div class="chat-input">
+      <textarea id="user-input" placeholder="Ask me anything..."></textarea>
+      <button id="send">Send</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
