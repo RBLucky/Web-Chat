@@ -38,7 +38,7 @@ export default async function handler(req, res) {
           "HTTP-Referer": process.env.APP_URL || "http://localhost:3000", // Required by OpenRouter
         },
         body: JSON.stringify({
-          model: process.env.LLM_MODEL || "mistral/mistral-small", // Set default model or use from env
+          model: process.env.LLM_MODEL || "openai/gpt-4o", // Set default model or use from env
           messages: messages,
           temperature: 0.7,
           max_tokens: 500,

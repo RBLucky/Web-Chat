@@ -1,5 +1,4 @@
 import express from 'express';
-import bodyParser from 'json-parser';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import chatHandler from './api/chat.js';
@@ -10,8 +9,8 @@ const __dirname = dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
-app.use(bodyParser.json());
+// Middleware - using express's built-in json parser
+app.use(express.json());
 app.use(express.static(join(__dirname, 'public')));
 
 // API endpoint

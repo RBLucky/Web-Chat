@@ -39,5 +39,108 @@
             "code": "LAUNCHZA",
             "expiry": "December 31, 2025"
         }
-    ]
+    ],
+    "technologies": [
+    {
+      "category": "Frontend",
+      "techs": [
+        {
+          "name": "React",
+          "description": "JavaScript library for building user interfaces",
+          "strengths": ["Component-based", "Virtual DOM", "Large ecosystem"],
+          "useCases": ["Single-page applications", "Interactive UIs", "Mobile apps with React Native"]
+        },
+        {
+          "name": "Vue.js",
+          "description": "Progressive JavaScript framework for UIs",
+          "strengths": ["Easy learning curve", "Flexible", "Great documentation"],
+          "useCases": ["Single-page applications", "Progressive enhancement", "Widgets in existing apps"]
+        },
+        {
+          "name": "Angular",
+          "description": "Platform and framework for building client-side applications",
+          "strengths": ["Full-featured", "Strong typing with TypeScript", "Enterprise support"],
+          "useCases": ["Large-scale enterprise applications", "PWAs", "Complex dashboards"]
+        }
+      ]
+    },
+    {
+      "category": "Backend",
+      "techs": [
+        {
+          "name": "Node.js",
+          "description": "JavaScript runtime built on Chrome's V8 engine",
+          "strengths": ["Asynchronous", "Same language as frontend", "Large package ecosystem (npm)"],
+          "useCases": ["API servers", "Real-time applications", "Microservices"]
+        },
+        {
+          "name": "Python/Django",
+          "description": "High-level Python web framework",
+          "strengths": ["Batteries included", "ORM", "Admin interface"],
+          "useCases": ["Content management", "Data-driven applications", "Rapid development"]
+        },
+        {
+          "name": "Java Spring Boot",
+          "description": "Framework for building Java applications",
+          "strengths": ["Enterprise-ready", "Robust", "Excellent performance"],
+          "useCases": ["Enterprise applications", "Microservices", "High-volume transaction systems"]
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "techs": [
+        {
+          "name": "PostgreSQL",
+          "description": "Advanced open source relational database",
+          "strengths": ["ACID compliance", "JSON support", "Extensibility"],
+          "useCases": ["Complex transactional applications", "GIS applications", "Data warehousing"]
+        },
+        {
+          "name": "MongoDB",
+          "description": "Document-oriented NoSQL database",
+          "strengths": ["Schema flexibility", "Horizontal scaling", "JSON-like documents"],
+          "useCases": ["Content management", "Real-time analytics", "Catalog applications"]
+        },
+        {
+          "name": "Redis",
+          "description": "In-memory data structure store",
+          "strengths": ["Extremely fast", "Versatile data structures", "Pub/sub capabilities"],
+          "useCases": ["Caching", "Real-time leaderboards", "Message brokers"]
+        }
+      ]
+    }
+  ],
+  "bestPractices": [
+    {
+      "area": "Code Quality",
+      "practices": [
+        "Write automated tests (unit, integration, e2e)",
+        "Use linters and code formatters",
+        "Follow consistent naming conventions",
+        "Keep functions small and focused",
+        "Document complex logic and APIs"
+      ]
+    },
+    {
+      "area": "Architecture",
+      "practices": [
+        "Separate concerns (business logic, data access, presentation)",
+        "Design for scale from the beginning",
+        "Use microservices for large applications when appropriate",
+        "Consider serverless for suitable workloads",
+        "Make security a priority at every level"
+      ]
+    },
+    {
+      "area": "Development Process",
+      "practices": [
+        "Use version control effectively (feature branches, meaningful commits)",
+        "Implement CI/CD pipelines",
+        "Review code through PRs/MRs",
+        "Monitor application performance and errors",
+        "Document architecture decisions and system design"
+      ]
+    }
+  ]
 }
