@@ -1,18 +1,30 @@
 {
-  "name": "photo-chatbot",
+  "name": "ai-chatbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Lucky Nkosi",
-  "license": "ISC",
+  "description": "A recyclable AI chatbot using OpenRouter API",
   "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "openrouter",
+    "llm"
+  ],
+  "author": "Lucky Nkosi",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.5.0",
+    "express": "^4.18.2",
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
