@@ -12,7 +12,7 @@
         },
         {
             "name": "Model Fine-Tuning & Hosting",
-            "description": "Custom fine-tuning of open-source LLMs and deployment on Render/Vercel.",
+            "description": "Custom fine-tuning of open-source LLMs and deployment.",
             "priceRange": "Quotable per project"
         }
     ],
@@ -20,7 +20,7 @@
         "locations": [
             {
                 "name": "NeuralNode Studios",
-                "address": "Remote (Based in Durban)",
+                "address": "Remote (Based in Midrand, Johannesburg)",
                 "email": "projects@neuralnode.co.za",
                 "phone": "073-999-1100",
                 "hours": "Consults by appointment only"
